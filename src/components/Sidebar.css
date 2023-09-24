@@ -1,0 +1,89 @@
+.sidebar{
+    margin-left: 0;
+    max-width: 180px;
+    height: 95vh;
+    background-color: #F3F3ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.company{
+    max-width: 75%;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 20px;
+}
+.menu li{
+    margin-top: 25px;
+}
+
+.input{
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 17px;
+    min-width: 170px;
+    min-height: 35px;
+    border: 1px solid #ccc;
+}
+
+
+.sign-up-btn{
+    min-width: 180px;
+    min-height: 38px;
+    border-radius: 20px;
+    background-color: #1F808D;
+    box-shadow: none;
+}
+
+.menu li:hover {
+    background-color: #d9d9d2;
+  }
+
+  .menu li {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .sub1 p{
+    font-size: small;
+  }
+  .sub1{
+    padding: 10px;
+  }
+
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+  }
+
+  .sub2{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub2 p{
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar{
+      margin-left: -1800;
+      z-index: -10000;
+      height: 100px;
+    }
+  }

@@ -1,0 +1,128 @@
+.home{
+    margin-left: 225px;
+    background-color: #FCFCF8;
+    height: 660px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container{
+    width: 80%; /* Adjust the width as needed */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+
+}
+
+.middle-container{
+  margin-top: 100px;
+  display: flex;
+  
+  align-items: center; 
+  flex-direction: column;
+}
+
+.bottom-container{
+
+    margin-top: auto; 
+}
+.input-container{
+    max-width: 703px;
+    min-height: 80px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-container input{
+    min-width: 650px;
+    min-height: 40px;
+    border: 0px solid #ccc;
+    outline: none;
+    background-color: #FCFCF8;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.focus-file{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copilot-next{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .text-para text {
+    font-size: 12px;
+    margin-left: 13px;
+  }
+  
+  .text-para text:hover {
+    background-color: rgb(225, 235, 235);
+  }
+  .bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 15px;
+  }
+  .bottom-container text{
+    margin-left: 15px;
+  }
+
+  .bottom-container text:hover{
+    text-decoration: underline;
+  }
+  .middle-container h1{
+    font-size: 30px;
+    font-weight: 10;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Add responsive styles for screens with a maximum width of 768px */
+    .home {
+      margin-left: 0; /* Adjust the margin for small screens */
+    }
+  
+    .container.middle-container {
+      margin-top: 20px; /* Adjust the top margin for small screens */
+    }
+  
+    .input-container {
+      max-width: 100%; /* Adjust the maximum width for small screens */
+    }
+  
+    .input-container input {
+      min-width: auto; /* Reset the minimum width for small screens */
+    }
+  
+    .middle-container h1 {
+      font-size: 24px; /* Adjust the font size for small screens */
+    }
+    
+  }
+  
+  
+  
+  

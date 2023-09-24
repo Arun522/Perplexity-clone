@@ -1,0 +1,82 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f2f2f;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    height: 100%;
+    max-width: 599px;
+    max-height: 419px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.container-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.google-sign{
+    height: 38px;
+    width: 375px;
+    background-color: #E8E8E2;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-sign{
+    height: 38px;
+    width: 375px;
+    background-color: #E8E8E2;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sign input{
+    height: 38px;
+    width: 355px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.welcome-text{
+    margin-bottom: 50px;
+}
+.welcome{
+    font-size: 60px;
+    font-weight: 5;
+    margin-bottom: 0;
+}
+
+

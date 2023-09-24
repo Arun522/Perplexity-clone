@@ -1,0 +1,69 @@
+.discover {
+    margin-left: 225px;
+    background-color: #FCFCF8;
+    max-width: 1200px; /* Adjusted max-width for responsiveness */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 10px; /* Added padding for better spacing */
+  }
+  
+  .block {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Use 100% width for responsiveness */
+    max-width: 800px;
+    margin-top: 60px; /* Adjusted margin for better spacing */
+  }
+  
+  .stick {
+    height: 100px;
+    width: 100%;
+    background-color: #FCFCF8;
+    position: fixed;
+    top: 0;
+    left: 225px;
+    z-index: 0;
+    border-bottom: 0.5px solid;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom to create spacing */
+  }
+  
+  .stick1 h1 {
+    padding-left: 20px;
+  }
+  
+  @media screen and (min-width: 769px) {
+    /* Apply styles for screens wider than 768px */
+    .stick1 h1 {
+      padding-left: 200px;
+    }
+  }
+  
+  .item h2 {
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .item p {
+    font-size: small;
+    margin-top: 5px; /* Added margin for better spacing between items */
+  }
+  
+  .item {
+    border-bottom: 0.1px solid;
+    padding: 10px 0; /* Added padding for better spacing between items */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .discover {
+      margin-left: 0;
+    }
+    .stick{
+      margin-left: 0;
+    }
+  }
